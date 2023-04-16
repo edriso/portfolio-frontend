@@ -23,14 +23,6 @@
             rel="nofollow noreferrer"
             >{{ email }}</a
           >
-
-          <a
-            class="contact__link"
-            :href="linkedin"
-            target="_blank"
-            rel="noopener noreferrer"
-            >LinkedIn</a
-          >
         </div>
       </div>
     </div>
