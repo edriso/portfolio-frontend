@@ -2,6 +2,7 @@
   &__filter {
     text-transform: capitalize;
     font-size: $font-sm;
+    user-select: none;
 
     li {
       cursor: pointer;

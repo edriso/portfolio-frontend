@@ -22,7 +22,7 @@
   font-size: $font-sm;
   overflow: hidden;
 
-  &__link {
+  &__demo {
     display: block;
     flex: 1;
     border-radius: 0.75rem;
@@ -84,7 +84,17 @@
     }
   }
 
-  &__date {
-    color: var(--font-light);
+  &__code {
+    svg {
+      fill: var(--font-light);
+      display: block;
+      width: 1.8rem;
+      height: 1.8rem;
+      @include transition($on: fill);
+
+      &:hover {
+        fill: var(--font);
+      }
+    }
   }
 }
