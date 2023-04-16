@@ -23,7 +23,7 @@ const routes = [
     name: "contact",
     component: Contact,
     meta: {
-      title: "Contact me",
+      title: "Contact",
     },
   },
   {
@@ -32,7 +32,7 @@ const routes = [
     component: Tag,
     props: true,
     meta: {
-      title: "Some of my works",
+      title: "Work Tag",
     },
   },
   {
