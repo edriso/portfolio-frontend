@@ -14,3 +14,7 @@ My portfolio using Vue.js and SASS.
 ```bash
 npm install && npm run dev
 ```
+
+#### Screenshot
+
+![screenshot](screenshot.png)
