@@ -27,7 +27,7 @@
     <div class="about__section about__section--about">
       <h2 class="about__heading">About Me</h2>
       <ul class="about__content">
-        <li v-for="(item, i) in bio" :key="i" v-html="item"></li>
+        <li v-for="(item, i) in about" :key="i" v-html="item"></li>
       </ul>
     </div>
 
@@ -38,7 +38,7 @@
       </ul>
     </div>
 
-    <div class="about__section">
+    <!-- <div class="about__section">
       <h2 class="about__heading">Acknowledgement</h2>
       <div class="about__content">
         <p>
@@ -49,7 +49,7 @@
           and glow. I can't thank you enough folks!”
         </p>
       </div>
-    </div>
+    </div> -->
   </main>
 </template>
 
@@ -59,27 +59,28 @@ export default {
   data() {
     return {
       name: "Mohamed Edris",
-      title: "JavaScript Developer",
-      bio: [
-        "I'm a Nubian guy who lives in Alexandria, and graduated from its faculty of Science - class of 2020, CS department.",
-        "While my studies, I've worked in many places, and participated in many student activities that helped me improve my soft skills.",
-        "I'm a detail-oriented person that loves building minimal and clean websites/web apps that are pleasing to the eyes. I also built a startup before (with a wonderful team) so I know how important the website should be modern, clean-coded, user-friendly, and accessible for everyone.",
+      title: "Web Developer",
+      about: [
+        "As a junior full stack developer, I am passionate about developing web applications that prioritize user experience and efficiency.",
+        "My educational background includes a bachelor's degree in computer science, where I acquired a strong understanding of programming concepts and software engineering. Additionally, I completed ITI web development boot camp that provided me with practical and hands-on experience building web applications.",
+        "My experience includes working with diverse technologies, including backend frameworks like Node.js and Laravel, database management systems such as MongoDB and MySQL, and frontend frameworks like React.js and Vue.js.",
+        "I am enthusiastic about continuously enhancing my skills and keeping pace with the latest industry trends and practices, and I am keen on collaborating with similar-minded professionals to develop innovative solutions that add value to people and drive business expansion.",
       ],
       skills: [
-        "JavaScript",
         "HTML",
         "CSS",
+        "JavaScript",
+        "Node.js",
         "React.js",
         "Vue.js",
+        "MongoDB",
+        "MySQL",
+        "Laravel",
         "SASS",
-        "Node.js",
-        "Express.js",
-        "Ejs",
-        "MongoDB / Mongoose",
-        "SQL / MySQL",
-        "TailwindCSS / Bootstrap",
+        "TailwindCSS",
+        "Bootstrap",
         "jQuery",
-        "Git / GitHub",
+        "Git",
       ],
     };
   },
