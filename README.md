@@ -1,12 +1,13 @@
 # Portfolio
 
-My portfolio project (frontend) using Vue.js and SASS.
+My portfolio using Vue.js and SASS.
 
 #### Main Features
 
 - Dark mode
-- Filter works by projects or shorts
-- Filter by tags
+- Filter works
+- Search works by its tag
+- Clean and simplicity
 
 #### Setup Command
 
