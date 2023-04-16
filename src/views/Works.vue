@@ -54,7 +54,7 @@ export default {
   components: { Post },
   setup() {
     // Data
-    const workTypes = ref(["all", "projects", "shorts"]);
+    const workTypes = ref(["all", "apps", "shorts"]);
     const currentWorkType = ref("all");
     const posts = ref([]);
     const postIsBlock = ref(false);
@@ -63,8 +63,8 @@ export default {
     const filteredPosts = computed(() => {
       if (currentWorkType.value === "shorts") {
         return posts.value.filter((post) => post.type === "short");
-      } else if (currentWorkType.value === "projects") {
-        return posts.value.filter((post) => post.type === "project");
+      } else if (currentWorkType.value === "apps") {
+        return posts.value.filter((post) => post.type === "app");
       } else {
         return posts.value;
       }
