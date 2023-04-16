@@ -34,7 +34,6 @@ export default {
   name: "Contact",
   data() {
     return {
-      linkedin: "https://www.linkedin.com/in/edriso",
       email: "edriso.dev@gmail.com",
     };
   },
