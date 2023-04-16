@@ -28,6 +28,6 @@ $breakpoints-down: (
 }
 
 // Transition
-@mixin transition($on: color, $time: 300ms, $mode: ease-in-out, $delay: null) {
+@mixin transition($on: color, $time: 300ms, $mode: ease-out, $delay: null) {
   transition: $on $time $mode $delay;
 }
